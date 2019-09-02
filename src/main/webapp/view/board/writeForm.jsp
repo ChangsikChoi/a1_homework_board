@@ -32,7 +32,7 @@
    <tr>
    	<td align="center">중요도 </td>
    	<td><input type="radio" name="important" value="true">Y
-   	<input type="radio" name="important" value="false">N</td>
+   	<input type="radio" name="important" value="false" checked="checked">N</td>
    <tr>      
 	<td colspan=2  align="center"> 
 	  <input type="submit" value="글쓰기" >  
