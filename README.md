@@ -50,7 +50,7 @@ a1플랫폼 기술과제
    4. entrySet(), keySet(), values()  
       entrySet()는 key와 value를 모두 갖는다.      
       
- 에러 해결.
+ 에러 해결.  
       게시물 write시에 객체를 map에 저장할 때 key값을 map.size() + 1 로 했었는데  
       이러면 삭제 후 빈 번호가 생겨서 객체가 저장이 안됨.  
       -> 저장시 key값을 Collections.max(map.keySet());으로 변경함.  
