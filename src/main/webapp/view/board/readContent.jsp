@@ -49,7 +49,7 @@ function checkSure(){
 					&nbsp;&nbsp;&nbsp;&nbsp; 
 					
 					<input type="button" value="글삭제"
-					onclick="document.location.href='<%=request.getContextPath()%>/delete?num=${article.num}'">
+					onclick="document.location.href='<%=request.getContextPath()%>/delete?num=${article.num}'; checkSure()">
 					&nbsp;&nbsp;&nbsp;&nbsp; 
 				</c:if>
 					<input type="button" value="글목록"
