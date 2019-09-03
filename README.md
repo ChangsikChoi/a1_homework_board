@@ -48,7 +48,11 @@ a1플랫폼 기술과제
       view에 생성된 객체가 전달됨.     
         
    4. entrySet(), keySet(), values()  
-      entrySet()는 key와 value를 모두 갖는다.      
+      entrySet()는 key와 value를 모두 갖는다.    
+   
+   5. writeFile에서의 synchronized  
+      java코드 자체에서는 스레드를 사용하고 있지 않지만 tomcat이 자체적으로 스레드를 사용하기 때문에  
+      synchronized를 사용해 보호해야함.  
       
  에러 해결.  
       게시물 write시에 객체를 map에 저장할 때 key값을 map.size() + 1 로 했었는데  
